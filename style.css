@@ -1,0 +1,132 @@
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+header{
+    width: 1768px;
+    margin-left: 3%;
+}
+.sidebar{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 935px;
+    background: #191718;
+    
+}
+.sidebar button{
+    cursor: pointer;
+    outline: none;
+    background: #191718;
+    width: 100px;
+    border: 0;
+    border-bottom: 1px solid #EFEFEF;
+    padding: 10px 0 10px;
+
+}
+
+.sidebar button:hover{
+    background: red;
+}
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+
+.slidebar .home{
+    width: 150px;
+    height: 44px;
+}
+.slidebar .home h2{
+    position: absolute;
+    width: 43px;
+    height: 19px;
+    left: 16px;
+    top: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+header .content{
+    height: 935px;
+    
+}
+header .content .logo1{
+    height: 122px;
+    margin-top: 20px;
+    text-align: center;
+}
+header .content .group1{
+    height: 100px;
+    margin: 20px 120px 0 129px;
+    background: #EFEFEF;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+header .content .group1 h2.top{
+    margin: 0 auto;
+    width: 241px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    
+}
+header .content .group1 h2.bot{
+    margin: 0 auto;
+    width: 972px;
+    height: 95px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+
+header .content .card{
+    display: flex;
+    margin: 20px 129px 0 129px;
+}
+header .content .group2, .group3, .group4{
+    width: 470px;
+    height: 252px;
+}
+
+header .content .card .group3,
+header .content .card .group4{
+    margin-left: 20px;
+}
+
+.group2 h2.top,
+.group3 h2.top,
+.group4 h2.top{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.group2 .logo,
+.group3 .logo,
+.group4 .logo{
+    position: absolute;
+    width: 120px;
+}
+.group2 h2.right,
+.group3 h2.right,
+.group4 h2.right{
+    width: 326px;
+    height: 134px;
+    margin-left: 26%;
+}
+
+.footer{
+    border-top: 1px solid #DEDEDE;
+    width: 1768px;
+    height: 78px;
+    margin: -5.65% 0 0 3%;;
+}
+.footer p{
+    margin: 30px 0 0 80px;
+}
+
