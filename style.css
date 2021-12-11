@@ -1,0 +1,87 @@
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+color: #000000;
+}
+header{
+    display: flex;
+}
+.sidebar{
+    position: absolute;
+    float: left;
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background: #191718;
+    
+}
+/* .sidebar a{
+    text-decoration: none;
+    color: white;
+} */
+
+.slidebar .home{
+    
+    width: 150px;
+    height: 44px;
+}
+.slidebar .home h2{
+    position: absolute;
+    width: 43px;
+    height: 19px;
+    left: 16px;
+    top: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+header .content{
+    width: 1768px;
+    height: 935px;
+    margin-left: 11.7%;
+}
+header .content .logo{
+    height: 122px;
+    margin: 20px 0 0 35%;
+}
+header .content .group1{
+    height: 210px;
+    margin: 20px 129px 0 129px;
+}
+header .content .group1 h2.top{
+    
+    width: 241px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 50px 0 0 35%;
+}
+header .content .group1 h2.bot{
+    height: 95px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+header .content .group2{
+    border: 1px solid red;
+    width: 470px;
+    height: 252px;
+}
+.group2 h2.top{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.group2 .logo{
+    margin-left: -50px;
+    border: 1px solid black;
+    width: 128px;
+    height: 128px;
+}
+
